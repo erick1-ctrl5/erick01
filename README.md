@@ -57,3 +57,11 @@ for a in $(seq 0 10 360); do ./ray $a > orbit/$(printf %03d $a).ppm; done
 | `ppm2asc.py`   | Conversor PPM → ASCII con rampa cuantizada   |
 | `frame_*.ppm`  | Fotogramas de la órbita                      |
 | `hero.ppm`     | Render de 960×540 presenting la escena       |
+
+## Ver sin instalar nada
+
+- `orbit.gif` — animación de la órbita completa de la cámara alrededor de la escena
+- `hero.png` — vista frontal renderizada a 960×540
+- `vista215.png` — vista trasera (ángulo 215°)
+
+GitHub los muestra directamente en el navegador.
